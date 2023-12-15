@@ -25,15 +25,17 @@ A utility function used within analyze_region_danger to create distribution plot
 ```python
 from nypdarrestdata import fetch_arrest_data, plot_crime_map
 ```
-# Fetch arrest data
+## Fetch arrest data
+```python
 start_date = '2023-01-01'
 end_date = '2023-01-10'
 arrest_data = fetch_arrest_data(start_date, end_date)
-
-# Plot the crime map with the fetched data
+```
+## Plot the crime map with the fetched data
+```python
 crime_map = plot_crime_map(arrest_data)
 crime_map
-
+```
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
