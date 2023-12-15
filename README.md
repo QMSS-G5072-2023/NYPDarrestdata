@@ -22,11 +22,12 @@ A utility function used within analyze_region_danger to create distribution plot
 
 ## Usage Example
 
-- from nypdarrestdata import fetch_arrest_data, plot_crime_map
-
+```python
+from nypdarrestdata import fetch_arrest_data, plot_crime_map
+```
 # Fetch arrest data
 start_date = '2023-01-01'
-end_date = '2023-03-01'
+end_date = '2023-01-10'
 arrest_data = fetch_arrest_data(start_date, end_date)
 
 # Plot the crime map with the fetched data
