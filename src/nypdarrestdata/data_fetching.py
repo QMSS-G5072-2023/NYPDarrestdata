@@ -9,7 +9,7 @@ Date should be written in yyyy-mm-dd format, limit is set as 30000 but it can be
     url = "https://data.cityofnewyork.us/resource/uip8-fykc.json"
     params = {
         "$where": f"arrest_date between '{start_date}' and '{end_date}'",
-        "$limit": 30000  # Adjust as necessary, if the number is too high, map function crashes. 
+        "$limit": 5000  # Adjust as necessary, if the number is too high, map function crashes. 
     }
     try:
         response = requests.get(url, params=params)
