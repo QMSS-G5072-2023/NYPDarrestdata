@@ -27,8 +27,8 @@ from nypdarrestdata import fetch_arrest_data, plot_crime_map
 ```
 ## Fetch arrest data
 ```python
-start_date = '2023-01-01'
-end_date = '2023-01-10'
+start_date = '2022-01-01'
+end_date = '2022-01-30'
 arrest_data = fetch_arrest_data(start_date, end_date)
 ```
 ## Plot the crime map with the fetched data

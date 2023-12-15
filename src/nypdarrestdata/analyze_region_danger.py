@@ -3,14 +3,14 @@ import seaborn as sns
 import pandas as pd
 
 def analyze_region_danger(data):
-"""
-Analyzes and visualizes arrest data by different demographic and crime categories in New York City boroughs.
-This function first standardizes race categories in the dataset, filters out unknown race entries, and 
-remaps borough codes to their names. It then generates a bar plot showing the number of arrests in each 
-NYC borough. Additionally, for each borough, the function provides detailed visualizations of the 
-distribution of arrests by age group, gender, race, and the top three charges.
-The function relies on another function, `plot_distribution`, for generating individual distribution plots.
-"""
+    """
+    Analyzes and visualizes arrest data by different demographic and crime categories in New York City boroughs.
+    This function first standardizes race categories in the dataset, filters out unknown race entries, and 
+    remaps borough codes to their names. It then generates a bar plot showing the number of arrests in each 
+    NYC borough. Additionally, for each borough, the function provides detailed visualizations of the 
+    distribution of arrests by age group, gender, race, and the top three charges.
+    The function relies on another function, `plot_distribution`, for generating individual distribution plots.
+    """
 
     race_mapping = {
         'BLACK': 'Black',

@@ -1,12 +1,12 @@
 from tabulate import tabulate
 
 def numeric_analysis_of_arrests(data):
-"""
-Analyzes arrest data and returns a formatted string representation of various arrest statistics.
-This function takes a dataset of arrest records and performs a numeric analysis on different categories 
-such as borough, age group, gender, race, and offense descriptions. It calculates the count of arrests for each category.
-The top 5 charges are also included in the analysis. The results are formatted as a string with each category presented in a 
-tabular format."""
+    """
+    Analyzes arrest data and returns a formatted string representation of various arrest statistics.
+    This function takes a dataset of arrest records and performs a numeric analysis on different categories 
+    such as borough, age group, gender, race, and offense descriptions. It calculates the count of arrests for each category.
+    The top 5 charges are also included in the analysis. The results are formatted as a string with each category presented in a 
+    tabular format."""
 
     borough_names = {'K': 'Brooklyn', 'M': 'Manhattan', 'Q': 'Queens', 'B': 'Bronx', 'S': 'Staten Island'}
     analysis_categories = {
